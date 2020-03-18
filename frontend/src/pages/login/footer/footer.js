@@ -7,8 +7,7 @@ export const Footer = () => (
     className={`row p-5 justify-content-center align-items-center ${styles.bottomdiv}`}
   >
     <span>
-      Made with <span className={styles.heart}>&#9829;</span> by RDoers in a few
-      places.
+      Desenvolvido por Resultados Digitais. Traduzido por Viajar faz Bem.
     </span>
   </div>
 );

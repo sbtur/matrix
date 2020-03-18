@@ -68,7 +68,7 @@ const MenuOffice = ({
           <SearchIcon />
         </div>
         <InputBase
-          placeholder="Search…"
+          placeholder="Buscar sala…"
           classes={{
             root: classes.inputRoot,
             input: classes.inputInput
@@ -79,7 +79,7 @@ const MenuOffice = ({
           }}
         />
       </div>
-      <Tooltip title="Show only full room">
+      <Tooltip title="Mostrar apenas salas ocupadas">
         <Checkbox
           icon={<SupervisedUserCircle />}
           checkedIcon={<SupervisedUserCircle />}

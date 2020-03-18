@@ -18,12 +18,12 @@ const InviteToMeetingDialog = ({
     <DialogTitle id="alert-dialog-title">User invite</DialogTitle>
     <DialogContent>
       <DialogContentText id="alert-dialog-description">
-        Invite {user.name} to {currentRoomName}?
+        Convidar {user.name} para {currentRoomName}?
       </DialogContentText>
     </DialogContent>
     <DialogActions>
       <Button onClick={onClose} color="primary">
-        Cancel
+        Cancelar
       </Button>
       <Button
         onClick={() => {
@@ -33,7 +33,7 @@ const InviteToMeetingDialog = ({
         color="primary"
         autoFocus
       >
-        Invite
+        Convidar
       </Button>
     </DialogActions>
   </Dialog>

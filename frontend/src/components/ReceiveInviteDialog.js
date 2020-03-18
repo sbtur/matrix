@@ -9,16 +9,16 @@ import DialogTitle from "@material-ui/core/DialogTitle";
 
 const ReceiveInviteDialog = ({ open, onClose, onConfirm, invitation }) => (
   <Dialog open={open} onClose={onClose}>
-    <DialogTitle>You have an invitation</DialogTitle>
+    <DialogTitle>Você recebeu um convite</DialogTitle>
     <DialogContent>
       <DialogContentText>
-        {invitation.user && invitation.user.name} invited you to{" "}
-        {invitation.room && invitation.room.name}. Do you want to accept it?
+        {invitation.user && invitation.user.name} convidou você para {" "}
+        {invitation.room && invitation.room.name}. Deseja aceitar?
       </DialogContentText>
     </DialogContent>
     <DialogActions>
       <Button onClick={onClose} color="primary">
-        No
+        Não
       </Button>
       <Button
         onClick={() => {
@@ -28,7 +28,7 @@ const ReceiveInviteDialog = ({ open, onClose, onConfirm, invitation }) => (
         color="primary"
         autoFocus
       >
-        Yes, take me there
+        Sim, valor lá
       </Button>
     </DialogActions>
   </Dialog>

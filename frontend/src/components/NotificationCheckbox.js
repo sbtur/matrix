@@ -20,15 +20,15 @@ const NotificationCheckbox = ({ onChange, openMessageDialog, isDisabled }) => {
 
   if (!isAllowed) {
     return (
-      <Tooltip title="Request notification permission">
+      <Tooltip title="Forneça permissões de notificacão">
         <IconButton
           aria-label="Exit room"
           aria-controls="menu-appbar"
           onClick={() => {
             if (isNotificationBlocked()) {
               openMessageDialog(
-                "Notification blocked",
-                "You must unlock Matrix's notification option in your browser settings."
+                "Notificacões bloqueada",
+                "Você deve permitir que as notificacões na configuracão do seu browser."
               );
             } else {
               requestPermissionToNotify(hasPermission => {
