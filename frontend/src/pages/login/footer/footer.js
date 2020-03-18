@@ -7,7 +7,7 @@ export const Footer = () => (
     className={`row p-5 justify-content-center align-items-center ${styles.bottomdiv}`}
   >
     <span>
-      Desenvolvido por Resultados Digitais. Traduzido por Viajar faz Bem.
+      Desenvolvido por Resultados Digitais. Traduzido por Viajar Faz Bem.
     </span>
   </div>
 );
