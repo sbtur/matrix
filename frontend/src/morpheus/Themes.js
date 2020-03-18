@@ -47,8 +47,8 @@ export const isDarkTheme = () => {
 export default {
   [THEMES.light]: createMuiTheme({
     palette: {
-      primary: "#1f75ef",
-      secondary: "#00307c",
+      primary: { main: "#1f75ef" },
+      secondary: { main: "#00307c" },
       background: { default: "#1f4f4f4" }
     }
   }),
