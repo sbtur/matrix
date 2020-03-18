@@ -31,7 +31,7 @@ export class Login extends Component {
   }
 
   getBackgroundImage(isDark) {
-    const imageName = isDark ? "barqueira.png" : "barqueira.png";
+    const imageName = isDark ? "Floripa_Praia.jpg" : "Floripa_Praia.jpg";
     return `url(/images/${imageName})`;
   }
 
