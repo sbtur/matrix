@@ -89,7 +89,6 @@ const MenuOffice = ({
           }}
         />
       </Tooltip>
-      <ThemeCheckbox onChange={onChangeTheme} />
       <NotificationCheckbox
         isDisabled={settings.notificationDisabled}
         onChange={event => {
